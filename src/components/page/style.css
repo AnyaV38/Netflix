@@ -1,0 +1,128 @@
+.footer{
+  background: black
+}
+.container{
+  margin-left:10%;
+  margin-right:10%;
+}
+.searchResultPanel{
+  height:70px;
+  background:rgb(190, 185, 186);
+}
+.movieImage{
+  width:450px;
+  height:610px;
+  margin-bottom:50px;
+  border: none;
+}
+.netflix {
+  color: rgb(223, 46, 84);
+  padding: 30px 0px;
+  font-size: 25px;
+}
+.findYourMovie {
+  color: white;
+  padding: 30px 0px;
+  margin-top:150px;
+  font-size: 25px;
+}
+.searchBy{
+  color: white;
+  padding: 30px 0px;
+  font-size: 20px;
+  width:150px;
+  display: inline-block;
+}
+.noFilmsFound{
+  font-size: 100px;
+  position:absolute;
+  margin:20% 30%;
+}
+.sortBy{
+  float:right;
+  font-size: 25px;
+  margin:20px;
+  width:150px;
+}
+.quantityMovies{
+  font-size: 25px;
+  width:200px;
+  display: inline-block;
+  margin-left:10%;
+  margin-top:20px;
+}
+.selected{
+  color: white;
+  padding: 5px 20px;
+  margin: 10px;
+  border: none;
+  background: rgb(223, 46, 84);
+}
+.noneSelected{
+  color: white;
+  padding: 5px 20px;
+  margin: 10px;
+  border: none;
+  background: rgb(66, 61, 61);
+}
+.searchButton{
+  color: white;
+  float: right;
+  margin: 15px 0px;
+  padding: 10px 20px;
+  border: none;
+  border-radius:5px;
+  background: rgb(223, 46, 84);
+  font-size: 25px;
+}
+.returnButton{
+  color: rgb(223, 46, 84);
+  float: right;
+  padding: 10px 20px;
+  border: none;
+  background: white;
+  font-size: 25px;
+}
+.reliaseDateButtonNoneSelected{
+  color: black;
+  font-size:20px;
+  float:right;
+  padding: 5px 20px;
+  margin: 20px;
+  border: none;
+  background: none;
+} 
+
+.reliaseDateButtonSelected{
+  color:rgb(223, 46, 84);
+  font-size:20px;
+  float:right;
+  padding: 5px 20px;
+  margin: 20px;
+  border: none;
+  background: none;
+}
+.ratingButtonNoneSelected{
+  float:right;
+  color:rgb(223, 46, 84);
+  padding: 5px 20px;
+  margin: 20px;
+  margin-right:5%;
+  font-size:20px;
+  border: none;
+  background: none;
+}
+
+.ratingButtonSelected{
+  float:right;
+  color: black;
+  padding: 5px 20px;
+  margin: 20px;
+  margin-right:5%;
+  font-size:20px;
+  border: none;
+  background: none;
+}
+.emptyResult{
+  font-size: 100px;
+}
